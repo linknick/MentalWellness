@@ -1,0 +1,10 @@
+dir: dataset/mental_wellness_tracker.csv
+
+model_type: LinearRegression
+#model_type: NN
+#model_type: XGBoost
+
+target: [Mood_Score]
+exclude: [User_ID,Date]
+
+batch_size: 32
